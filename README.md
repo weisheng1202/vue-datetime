@@ -1,3 +1,8 @@
+#Intro
+Hello Guys, this fork is because the original datetime didn't provide EVENT to listen when we click 'cancel' 'confirm',but we really need them for some circumstance. So I put $emit to it, so we can use @cancel @confirm @open to listen the event and do what we want to do.
+大家好，之所以fork這個插件，是因為我覺得他不錯用，他是她並沒有提供關於close confirm open 這些事件的監聽，這邊我簡單加上emit監聽，並且可以使用@cancel @confirm @open 在<datetime @cancel>中使用。
+希望有幫助到想要監聽這些事件的大家。
+
 # vue-datetime
 
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE)
